@@ -1,3 +1,10 @@
-/**
- * Created by jaouad on 14/12/2016.
- */
+import {Component} from '@angular/core';
+@Component({
+  selector:'experience',
+  styleUrls:['./experience.component.css'],
+  templateUrl:'./experience.component.html'
+})
+
+export class ExperienceComponent{
+
+}
