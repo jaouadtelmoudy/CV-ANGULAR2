@@ -1,0 +1,20 @@
+{
+  "title":"Formation",
+  "descriptionGen":"J'ai eu mon diplome de bac+2 en 2008 a ESIA et j'ai travaillé pendant une année après j'ai quitté l'entreprise pour renforcer mon diplome et j'ai integré l'ecole d'ingenieur IGA",
+  "listeFrm":[{
+    "niveau":"Bac+5",
+    "intitule":"Ingénierie Logiciel et Multimédia",
+    "dateOp":"2012-09-01",
+    "mention":"Assez bien",
+    "etablissement":"I.G.A",
+    "description":"J'ai eu mon diplome de bac+5 en 2012 dans l'institut superieur du genie appliqué"
+  },{
+    "niveau":"Bac+2",
+    "intitule":"DUT",
+    "dateOp":"2018-07-01",
+    "mention":"Assez bien",
+    "etablissement":"E.S.I.A",
+    "description":"J'ai eu mon diplome de bac+2 en 2008 a ESIA (ecole superieur d'informatique appliqué)"
+  }
+  ]
+}

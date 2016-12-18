@@ -1,0 +1,17 @@
+{
+  "title":"Loisirs",
+  "descriptionGen":"J'ai plusieurs Loisirs",
+  "listeLoisir":[{
+    "libelle":"Sport",
+    "detail":"Foot, Natation",
+    "description":"description de la partie sport"
+  },{
+    "libelle":"Voyage",
+    "detail":"Ville touristique",
+    "description":"description de la partie Voyage"
+  },{
+    "libelle":"Cinéma",
+    "detail":"Film Histoire, Film Action",
+    "description":"description de la partie Cinema"
+  }]
+}

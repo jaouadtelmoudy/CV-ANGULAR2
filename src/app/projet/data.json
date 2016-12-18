@@ -1,0 +1,26 @@
+{
+  "title":"Projets",
+  "descriptionGen":"J'ai bossé sur plusieurs projets",
+  "listeProjets" :[{
+    "societe":"BAZARCHIC",
+    "context" :"Site e-commerce",
+    "poste"  :"Développeur Full Stack",
+    "dateEn" :"2016-08-01",
+    "dateSor":"2016-12-30",
+    "description":"description de la partie Site e-commerce"
+  },{
+    "societe":"SOFA",
+    "context" :"Application Mobile Metier commerce",
+    "poste"  :"Développeur Mobile IONIC / Angular / CORDOVA",
+    "dateEn" :"2016-01-01",
+    "dateSor":"2016-07-01",
+    "description":"description de la partie Application Mobile Metier commerce"
+  },{
+    "societe":"SOFA",
+    "context" :"Analyse des ventes",
+    "poste"  :"Développeur AngularJs / NodeJs",
+    "dateEn" :"2016-01-01",
+    "dateSor":"2016-07-01",
+    "description":"description de la partie Analyse des ventes"
+  }]
+}
