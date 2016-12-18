@@ -1,2 +1,7 @@
 <h3>Formation</h3>
 <p>Je suis dans le composants Formations ! </p>
+<p>{{formationData.title}}</p>
+<p>{{formationData.listeFormation}}</p>
+<h1 *ngFor="let f of formationData.listeFormation">{{f.niveau}}</h1>
+
+
