@@ -1,2 +1,43 @@
-<h1>Projet</h1>
-<p>Je suis dans Projet</p>
+<h2>{{prjData.title}}</h2>
+<p>&nbsp;</p>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default" *ngFor="let prj of prjData.listeProjets">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="javascript:;" data-target="#collapse{{$index+1}}">{{prj.poste}}</a>
+      </h4>
+    </div>
+    <div id="collapse{{$index+1}}" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Societé</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.societe}}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Context</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.context}}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Entrée Le</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.dateEn | date:'dd/MM/yyyy'}}</div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Sortie Le</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.dateSor | date:'dd/MM/yyyy'}}</div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Envirenement Technique</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.techno}}</div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Description</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{prj.description}}</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+

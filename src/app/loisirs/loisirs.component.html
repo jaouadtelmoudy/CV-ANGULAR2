@@ -1,2 +1,26 @@
-<h1>Loisirs</h1>
-<p>Je suis dans Loisirs</p>
+<h2>{{loiData.title}}</h2>
+<p>&nbsp;</p>
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default" *ngFor="let loi of loiData.listeLoisir">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="javascript:;" data-target="#collapse{{$index+1}}">{{loi.libelle}}</a>
+      </h4>
+    </div>
+    <div id="collapse{{$index+1}}" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Détail</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{loi.detail}}</div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2 col-lg-2 col-xs-2">Description</div>
+          <div class="col-md-3 col-lg-3 col-xs-3">{{loi.description}}</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
