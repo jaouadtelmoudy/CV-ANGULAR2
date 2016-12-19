@@ -1,2 +1,27 @@
-<h3>Home Component</h3>
-<p>Welcome to Angular Seed</p>
+<div class="container">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-xs-12 col-sm-9">
+      <div class="jumbotron">
+        <!--<carousel-directive></carousel-directive>-->
+      </div>
+      <div class="row">
+        <div class="col-xs-6 col-lg-4">
+          <h2>{{lgModel.title}}</h2>
+          <p>{{lgModel.descriptionGenLg}}. </p>
+          <p><a class="btn btn-secondary" [routerLink]="['/langues']" role="button">Détails &raquo;</a></p>
+        </div><!--/span-->
+      </div><!--/row-->
+    </div><!--/span-->
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-3">
+            <!-- <profil-directive><profil-directive>-->
+           </div>
+         </div>
+       </div>
+     </div><!--/span-->
+  </div><!--/row-->
+</div><!--/.container-->
+

@@ -1,6 +1,6 @@
 export class LanguesModel{
   title:string;
-  descriptionGen: string;
+  descriptionGenLg: string;
   listeLg:string[];
   constructor(){}
 }
