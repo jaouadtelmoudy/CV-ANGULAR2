@@ -6,8 +6,8 @@ import  'rxjs/add/operator/map';
 
 export class FormationService{
 
-  constructor(private http:Http) { }
+  constructor(private _http:Http) { }
   getAllFormation(){
-     return  this.http.get('app/formation/data.json').map(res => res.json());
+     return  this._http.get('app/formation/data.json').map(res => res.json());
   }
 }
