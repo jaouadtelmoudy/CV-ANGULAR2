@@ -40,6 +40,8 @@
     "awesome-typescript-loader": "^2.2.4",
     "bootstrap": "^3.3.7",
     "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "jquery": "^3.1.1",
     "ng2-bootstrap": "^1.1.16",
     "raw-loader": "^0.5.1",
     "to-string-loader": "^1.1.4",

@@ -18,12 +18,13 @@ import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import {LoisirsComponent} from "./loisirs/loisirs.component";
 import {LanguesComponent} from "./langues/langues.component";
+import {CarouselComponent} from "./carousel/carousel.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     FormationComponent,
-  
+
     HomeComponent,
     ContactComponent,
     MenuComponent,
@@ -31,7 +32,8 @@ import {LanguesComponent} from "./langues/langues.component";
     ExperienceComponent,
     ProjetComponent,
     LoisirsComponent,
-    LanguesComponent
+    LanguesComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
